@@ -6,3 +6,5 @@ NHS causal knolwedge graph with evaluation and clustering
 2. The main code also uses our developed NHS crawler NHSsearchv5.py and our health information NLP processing libary NHStextNLPprocessAPIv1.py 
 
 3. The generated CPKG triples are in zip file of cknns where contains 383 individul KG and also a integrated KG - nhskg
+
+4. The prediction test data and probability KG generation
