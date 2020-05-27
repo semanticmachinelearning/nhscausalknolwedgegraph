@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://nhscausalknowledgegraph.org/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://nhscausalknowledgegraph.org/">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This ontology is designed to form the causal probability knowledge graph</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/AnatomicalStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/Species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Medical_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Therapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Category:Habits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Category:Human_development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Category:Human_physiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/page/Category:Sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Category:Symptoms_and_signs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HabitCausesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="SpeciesCausesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="caussalProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="diagnosisTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="drugTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="seasonAffectTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="treatmentTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causeOnAnatomicStructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesAffectionToAgeGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesDisease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </Declaration>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="HabitCausesTo"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="SpeciesCausesTo"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="caussalProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="diagnosisTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="drugTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="seasonAffectTo"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="treatmentTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causeOnAnatomicStructure"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causes"/>
+        <ObjectProperty IRI="caussalProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesAffectionToAgeGroup"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesDisease"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesPhysiology"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesSymptom"/>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+        <ObjectProperty IRI="caussalProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="SpeciesCausesTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="caussalProperty"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="drugTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="seasonAffectTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="treatmentTo"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causeOnAnatomicStructure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesPhysiology"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesSymptom"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesTo"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="diagnosisTo"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="caussalProperty"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causes"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="caussalProperty"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HabitCausesTo"/>
+        <Class IRI="http://dbpedia.org/page/Category:Habits"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="SpeciesCausesTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Species"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="diagnosisTo"/>
+        <Class IRI="http://dbpedia.org/page/Medical_diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="drugTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="seasonAffectTo"/>
+        <Class IRI="http://dbpedia.org/page/Season"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="treatmentTo"/>
+        <Class IRI="http://dbpedia.org/page/Therapy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causeOnAnatomicStructure"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesAffectionToAgeGroup"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesDisease"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesPhysiology"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesSymptom"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HabitCausesTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="SpeciesCausesTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="diagnosisTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="drugTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="seasonAffectTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="treatmentTo"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causeOnAnatomicStructure"/>
+        <Class IRI="http://dbpedia.org/ontology/AnatomicalStructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesAffectionToAgeGroup"/>
+        <Class IRI="http://dbpedia.org/page/Category:Human_development"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesDisease"/>
+        <Class IRI="http://dbpedia.org/ontology/Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesPhysiology"/>
+        <Class IRI="http://dbpedia.org/page/Category:Human_physiology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nhscausalknowledgegraph.org/causesSymptom"/>
+        <Class IRI="http://dbpedia.org/resource/Category:Symptoms_and_signs"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://dbpedia.org/page/Therapy</IRI>
+        <Literal>Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://dbpedia.org/page/Category:Sex</IRI>
+        <Literal>Gender</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
