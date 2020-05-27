@@ -7,4 +7,8 @@ NHS causal knolwedge graph with evaluation and clustering
 
 3. The generated CPKG triples are in zip file of cknns where contains 383 individul KG and also a integrated KG - nhskg
 
-4. The prediction test data and probability KG generation
+4. The PKG runtim generation and prediction algorithms are in PGKAndprediction.ipynb file
+
+5. The nhscausalknowledgegraph.owl is the CPKL-based NHS disease ontology
+
+6. There are two datasets for testing, one is without noisy inputs and the other one is with noisy. 
