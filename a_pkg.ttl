@@ -1,0 +1,2258 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Abdominal-aortic-aneurysm a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+ns1:Abscess a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+ns1:Achalasia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+ns1:Acute-kidney-injury a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+ns1:Acute-lymphoblastic-leukaemia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+ns1:Acute-myeloid-leukaemia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+ns1:Acute-pancreatitis a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+ns1:Acute-respiratory-distress-syndrome a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+ns1:Adenoids-and-adenoidectomy a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+ns1:Agoraphobia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Acromegaly> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Acute-cholecystitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Air-embolism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Albinism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Alcohol-related-liver-disease-arld> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Allergic-rhinitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Allergies> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Alzheimers-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Amyloidosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Anal-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Anal-fistula> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Androgen-insensitivity-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Angina> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Angioedema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Ankylosing-spondylitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Anorexia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Antiphospholipid-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Anxiety-disorders-in-children> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Asbestosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Asthma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Autosomal-recessive-polycystic-kidney-disease-arpkd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Bartholins-cyst> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Bile-duct-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Bird-flu> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Bladder-stones> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Bone-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Bornholm-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Botulism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Bowens-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Brain-abscess> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Brain-aneurysm> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Breast-cancer-in-men> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Bronchiolitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Bronchitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Brucellosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Brugada-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/C-difficile> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Cardiovascular-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Cavernoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Cerebral-palsy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child_development> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Cervical-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Charcot-marie-tooth-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Charles-bonnet-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Chest-infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Chiari-malformation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Chickenpox> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Chlamydia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Cholesteatoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Chronic-lymphocytic-leukaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung_transplantation> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Chronic-pancreatitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Chronic-traumatic-encephalopathy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Cirrhosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Claustrophobia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Coeliac-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Coma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Common-cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Complex-regional-pain-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Concussion> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Congenital-heart-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Constipation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Coronary-heart-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Costochondritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Creutzfeldt-jakob-disease-cjd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Crohns-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Cushings-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Cyclospora> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Cystic-fibrosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Cytomegalovirus-cmv> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Dehydration> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Dengue> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Diabetic-ketoacidosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Digeorge-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Diphtheria> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Diverticular-disease-and-diverticulitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Dysentery> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Ear-infections> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Early-menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Ebola> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Edwards-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child_development> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Embolism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Encephalitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Endocarditis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Endometriosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Epidermolysis-bullosa> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Epiglottitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Epilepsy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Erythema-multiforme> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Ewing-sarcoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Fabricated-or-induced-illness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Febrile-seizures> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Fibromyalgia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Flu> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Food-allergy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Food-intolerance> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Food-poisoning> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Frostbite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Gallbladder-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Gallstones> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Gangrene> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Gastritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Gender-dysphoria> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Generalised-anxiety-disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Giardiasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Glomerulonephritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Goitre> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Gonorrhoea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Granulomatosis-with-polyangiitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Gum-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Haemophilia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Hand-foot-mouth-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Heart-attack> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Heart-failure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Heart-palpitations> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Heartburn-and-acid-reflux> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Hepatitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Hepatitis-a> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Hepatitis-b> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Hepatitis-c> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Hereditary-haemorrahagic-telangiectasia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Hereditary-neuropathy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Herpes-simplex-eye-infections> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hib> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Hidradenitis-suppurativa> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/High-blood-sugar-hyperglycaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Hip-pain-children-irritable-hip> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hirschsprungs-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hiv-and-aids> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Hodgkin-lymphoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Huntingtons-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hydrocephalus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Hydronephrosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Hyperparathyroidism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Hypothermia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Idiopathic-pulmonary-fibrosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung_transplantation> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Indigestion> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Inflammatory-bowel-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Interstitial-cystitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Intracranial-hypertension> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Iron-deficiency-anaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Irritable-bowel-syndrome-ibs> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Isovaleric-acidaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Japanese-encephalitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Jaundice-newborn> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Jellyfish-and-other-sea-creature-stings> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Kaposis-sarcoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Kidney-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Kidney-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Kidney-infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Kidney-stones> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Klinefelters-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Kwashiorkor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Kyphosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Labyrinthitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Lactose-intolerance> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Laryngeal-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Lazy-eye> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Legionnaires-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Liver-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Lung-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Lupus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Lyme-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Lymphoedema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Malaria> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Male-menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Malignant-brain-tumour> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Malnutrition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Maple-syrup-urine-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Marfan-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Melanoma-skin-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Meningitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Mesothelioma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Metabolic-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Middle-east-respiratory-syndrome-mers> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Migraine> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Miscarriage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Mitral-valve-problems> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Molar-pregnancy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Molluscum-contagiosum> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Monkeypox> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Mouth-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Multiple-myeloma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Multiple-sclerosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Multiple-system-atrophy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Mumps> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Mycobacterium-chimaera> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Myositis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Narcolepsy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Nasal-and-sinus-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Necrotising-fasciitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Neonatal-herpes> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Nephrotic-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Neuroblastoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Neuroendocrine-tumours> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Neurofibromatosis-type-1> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Neurofibromatosis-type-2> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Non-alcoholic-fatty-liver-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Non-gonococcal-urethritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Non-hodgkin-lymphoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Non-melanoma-skin-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Noonan-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Obesity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Obsessive-compulsive-disorder-ocd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Oesophageal-atresia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Oesophageal-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Orf> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Osteomyelitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Osteoporosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Ovarian-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Ovarian-cyst> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Overactive-thyroid-hyperthyroidism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Pagets-disease-nipple> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Pancreatic-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Parkinsons-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Pelvic-inflammatory-disease-pid> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Pelvic-organ-prolapse> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Pemphigus-vulgaris> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Perforated-eardrum> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Period-pain> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Peripheral-neuropathy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Personality-disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Phantosmia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Phenylketonuria> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Phimosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Phobias> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Pityriasis-rosea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Pityriasis-versicolor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Pleurisy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Pneumonia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Poisoning> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Polio> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Polymorphic-light-eruption> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Polymyalgia-rheumatica> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Post-herpetic-neuralgia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Post-polio-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Prader-willi-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Pre-eclampsia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Primary-biliary-cirrhosis-pbc> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Progressive-supranuclear-palsy-psp> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Prostate-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Prostate-enlargement> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Prostatitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Psoriasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Psoriatic-arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Q-fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Reactive-arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Reflux-in-babies> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Repetitive-strain-injury-rsi> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Respiratory-tract-infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Restless-legs-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Retinoblastoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Rett-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Your_Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Rhesus-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Rheumatoid-arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ] .
+
+<https://www.nhs.uk/conditions/Rickets-and-osteomalacia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Ringworm> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Roseola> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Rubella> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Sars> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Schistosomiasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Scleroderma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Septic-arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Sexually-transmitted-infections-stis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Shingles> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ] .
+
+<https://www.nhs.uk/conditions/Short-sightedness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Sickle-cell-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Slapped-cheek-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Sleep-apnoea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Social-anxiety> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Spina-bifida> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Spinal-muscular-atrophy-sma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Stevens-johnson-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Stomach-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Stomach-ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Subarachnoid-haemorrhage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Supraventricular-tachycardia-svt> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Swine-flu> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Syphilis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Testicular-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Thalassaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Breathing> ;
+            ns1:pvalue "0.017857142857142856" ] .
+
+<https://www.nhs.uk/conditions/Thrush-in-men-and-women> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Tonsillitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Trichomoniasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Male> ;
+            ns1:pvalue "0.04" ] .
+
+<https://www.nhs.uk/conditions/Trigger-finger> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Tuberculosis-tb> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Turner-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Typhoid-fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Typhus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Chest_pain> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Ulcerative-colitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ] .
+
+<https://www.nhs.uk/conditions/Underactive-thyroid-hypothyroidism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fatigue_(medical)> ;
+            ns1:pvalue "0.030303030303030304" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Heartbeat> ;
+            ns1:pvalue "0.047619047619047616" ] .
+
+<https://www.nhs.uk/conditions/Undescended-testicles> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Man> ;
+            ns1:pvalue "0.023809523809523808" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Unintentional-weight-loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Urinary-incontinence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Cough> ;
+            ns1:pvalue "0.01818181818181818" ] .
+
+<https://www.nhs.uk/conditions/Urinary-tract-infections-utis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<https://www.nhs.uk/conditions/Uveitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Vaginal-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Vaginitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Varicose-eczema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ] .
+
+<https://www.nhs.uk/conditions/Von-willebrand-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Child> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Vulval-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Childhood> ;
+            ns1:pvalue "0.007518796992481203" ] .
+
+<https://www.nhs.uk/conditions/Womb-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Lung> ;
+            ns1:pvalue "0.022222222222222223" ] .
+
+<https://www.nhs.uk/conditions/Yellow-fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:hasCausalProbablity [ ns1:causalityTo <http://dbpedia.org/page/Unwell> ;
+            ns1:pvalue "0.037037037037037035" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Infection> ;
+            ns1:pvalue "0.005376344086021506" ],
+        [ ns1:causalityTo <http://dbpedia.org/page/Fever> ;
+            ns1:pvalue "0.008333333333333333" ] .
+
+<http://dbpedia.org/page/Child_development> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Lung_transplantation> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Your_Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Male> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Unwell> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fatigue_(medical)> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
