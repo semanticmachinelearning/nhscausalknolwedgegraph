@@ -12,3 +12,6 @@ NHS causal knolwedge graph with evaluation and clustering
 5. The nhscausalknowledgegraph.owl is the CPKL-based NHS disease ontology
 
 6. There are two datasets for testing, one is without noisy inputs and the other one is with noisy. 
+
+research paper citation:
+Yu, Hong Qing and Stephan Reiff-Marganiec. "Learning Disease Causality Knowledge From the Web of Health Data." IJSWIS vol.18, no.1 2022: pp.1-19. http://doi.org/10.4018/IJSWIS.297145
